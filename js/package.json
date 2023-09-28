@@ -1,0 +1,15 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "Examples for object service APIs",
+  "main": "put-object.js",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.421.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Helen Chan",
+  "license": "ISC"
+}
