@@ -1,19 +1,19 @@
 # Examples in Javascript
 
-Operations:
+Examples on different storage operations:
 
-- Put an object: 'put-object.js'
-- Get an object: 'get-object.js'
-- Head an object: 'head-object.js'
-- Delete an object: 'delete-object.js'
-- Copy an object: 'copy-object.js'
-- List objects in a bucket: 'list-objects.js'
+- Put an object: `put-object.js`
+- Get an object: `get-object.js`
+- Head an object: `head-object.js`
+- Delete an object: `delete-object.js`
+- Copy an object: `copy-object.js`
+- List objects in a bucket: `list-objects.js`
 
 ## Setup
 
-1. Install `nodejs` on your system
+1. Install `Node.js` (e.g., download the binaries from [here](https://nodejs.org/en/download) or install via the package manager according to the guide [here](https://nodejs.org/en/download/package-manager))
 
-1. Install the node packages
+1. Install the required Node packages
    ```bash
    npm install
    ```
