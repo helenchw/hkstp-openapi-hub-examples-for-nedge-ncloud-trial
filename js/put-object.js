@@ -29,9 +29,9 @@ var MyConfig = require("./config.js");
 
   try {
     const response = await client.send(putObjCmd);
-    console.log(response);
+    console.log("===== Response =====\n", response, "\n==========");
   } catch (err) {
-    console.log(err);
+    console.log("===== Error =====", err, "\n==========");
   }
 
 })();

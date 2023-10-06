@@ -28,10 +28,16 @@ var MyConfig = require("./config.js");
 
   try {
     const response = await client.send(getObjCmd);
-    console.log(response);
+    console.log("===== Response =====\n", response, "\n==========");
+    try {
+      const str = await response.Body.transformToString();
+      console.log("===== Object content =====\n", str, "\n==========");
+    } catch {
+      console.log("===== Error =====", err, "\n==========");
+    }
     // TODO wait and print the object content
   } catch (err) {
-    console.log(err);
+    console.log("===== Error =====", err, "\n==========");
   }
 
 })();
