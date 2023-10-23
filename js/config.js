@@ -11,4 +11,7 @@ module.exports = {
     name: 'put_bucket_example_object',
     copied_name: 'copied_object'
   },
+  misc: {
+    check_ssl_cert: false
+  },
 };
