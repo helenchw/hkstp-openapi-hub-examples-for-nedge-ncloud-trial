@@ -9,7 +9,7 @@ var MyConfig = require("./config.js");
   const input = {
     Bucket: MyConfig.test_obj.bucket,
     Key: MyConfig.test_obj.copied_name,
-    CopySource: MyConfig.test_obj.bucket + "/" + MyConfig.test_obj.name
+    CopySource: encodeURI(MyConfig.test_obj.bucket + "/" + MyConfig.test_obj.name)
   }
 
   const copyObjCmd = new CopyObjectCommand(input);
